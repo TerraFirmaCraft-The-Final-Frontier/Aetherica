@@ -10,7 +10,7 @@ import io.tff.aether.client.models.entities.PhygWingModel;
 public class PhygWingLayer implements LayerRenderer<EntityPhyg>
 {
 
-	private static final ResourceLocation TEXTURE_WINGS = new ResourceLocation("aether_legacy", "textures/entities/phyg/wings.png");
+	private static final ResourceLocation TEXTURE_WINGS = new ResourceLocation("aether", "textures/entities/phyg/wings.png");
 
 	private RenderManager renderManager;
 

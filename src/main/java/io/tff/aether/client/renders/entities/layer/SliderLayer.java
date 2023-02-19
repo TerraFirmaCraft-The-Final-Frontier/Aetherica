@@ -13,9 +13,9 @@ import io.tff.aether.client.models.entities.SliderModel;
 public class SliderLayer implements LayerRenderer<EntitySlider>
 {
 
-	private static final ResourceLocation TEXTURE_GLOW = new ResourceLocation("aether_legacy", "textures/bosses/slider/slider_awake_glow.png");
+	private static final ResourceLocation TEXTURE_GLOW = new ResourceLocation("aether", "textures/bosses/slider/slider_awake_glow.png");
 
-	private static final ResourceLocation TEXTURE_GLOW_RED = new ResourceLocation("aether_legacy", "textures/bosses/slider/slider_awake_critical_glow.png");
+	private static final ResourceLocation TEXTURE_GLOW_RED = new ResourceLocation("aether", "textures/bosses/slider/slider_awake_critical_glow.png");
 
 	private final SliderModel model;
 

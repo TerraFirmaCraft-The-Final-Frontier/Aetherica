@@ -8,7 +8,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class AetherMainMenuButton extends GuiButton
 {
-    protected static final ResourceLocation BUTTON_TEXTURES = new ResourceLocation("aether_legacy", "textures/gui/menu/buttons.png");
+    protected static final ResourceLocation BUTTON_TEXTURES = new ResourceLocation("aether", "textures/gui/menu/buttons.png");
 
     public AetherMainMenuButton(int buttonId, int x, int y, String buttonText)
     {

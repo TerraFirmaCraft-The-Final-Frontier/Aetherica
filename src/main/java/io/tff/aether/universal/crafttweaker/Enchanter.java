@@ -12,7 +12,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
-@ZenClass("mods.aether_legacy.Enchanter")
+@ZenClass("mods.aether.Enchanter")
 public class Enchanter {
 
     public static final IForgeRegistry<AetherEnchantment> enchantments = GameRegistry.findRegistry(AetherEnchantment.class);

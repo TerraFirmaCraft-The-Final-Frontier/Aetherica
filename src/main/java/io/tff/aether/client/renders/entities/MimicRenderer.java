@@ -11,9 +11,9 @@ import net.minecraft.util.ResourceLocation;
 
 public class MimicRenderer extends RenderLiving<EntityMimic>
 {
-    private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/mimic/mimic.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/mimic/mimic.png");
 
-    private static final ResourceLocation XMAS_TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/mimic/christmas_mimic.png");
+    private static final ResourceLocation XMAS_TEXTURE = new ResourceLocation("aether", "textures/entities/mimic/christmas_mimic.png");
 
     public MimicRenderer(RenderManager renderManager)
     {

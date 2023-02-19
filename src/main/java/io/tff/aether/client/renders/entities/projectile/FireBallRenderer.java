@@ -32,7 +32,7 @@ public class FireBallRenderer extends RenderLiving<EntityFireBall>
 	@Override
 	protected ResourceLocation getEntityTexture(EntityFireBall entity)
 	{
-    	return new ResourceLocation("aether_legacy", "textures/entities/crystals/firoball.png");
+    	return new ResourceLocation("aether", "textures/entities/crystals/firoball.png");
 	}
 
 }

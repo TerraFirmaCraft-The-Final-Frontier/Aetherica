@@ -11,9 +11,9 @@ import net.minecraft.util.ResourceLocation;
 
 public class SwetRenderer extends RenderLiving<EntitySwet>
 {
-    private static final ResourceLocation TEXTURE_BLUE = new ResourceLocation("aether_legacy", "textures/entities/swet/swet_blue.png");
+    private static final ResourceLocation TEXTURE_BLUE = new ResourceLocation("aether", "textures/entities/swet/swet_blue.png");
 
-    private static final ResourceLocation TEXTURE_GOLDEN = new ResourceLocation("aether_legacy", "textures/entities/swet/swet_golden.png");
+    private static final ResourceLocation TEXTURE_GOLDEN = new ResourceLocation("aether", "textures/entities/swet/swet_golden.png");
 
 	public SwetRenderer(RenderManager renderManager)
 	{

@@ -13,7 +13,7 @@ import org.lwjgl.opengl.GL11;
 public class GuiAetherButton extends GuiButton
 {
 
-    protected static final ResourceLocation buttonTextures = new ResourceLocation("aether_legacy", "textures/gui/buttons.png");
+    protected static final ResourceLocation buttonTextures = new ResourceLocation("aether", "textures/gui/buttons.png");
 
 	public int scrollMax = 100;
 

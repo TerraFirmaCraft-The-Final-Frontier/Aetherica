@@ -12,7 +12,7 @@ import io.tff.aether.client.renders.entities.FlyingCowRenderer;
 @SideOnly(Side.CLIENT)
 public class LayerFlyingCowSaddle implements LayerRenderer<EntityFlyingCow>
 {
-    private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/flying_cow/saddle.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/flying_cow/saddle.png");
 
     private final FlyingCowRenderer cowRenderer;
     private final FlyingCowModel cowModel = new FlyingCowModel(0.5F);

@@ -43,7 +43,7 @@ public class AetherJEIPlugin implements IModPlugin
 					return null;
 				}
 			}
-		}, "aether_legacy.enchantment");
+		}, "aether.enchantment");
 
 		registry.handleRecipes(AetherFreezable.class, new IRecipeWrapperFactory<AetherFreezable>() {
 
@@ -59,16 +59,16 @@ public class AetherJEIPlugin implements IModPlugin
 					return null;
 				}
 			}
-		}, "aether_legacy.freezable");
+		}, "aether.freezable");
 
-		registry.addRecipeCatalyst(new ItemStack(BlocksAether.enchanter), "aether_legacy.enchantment");
-		registry.addRecipeCatalyst(new ItemStack(BlocksAether.freezer), "aether_legacy.freezable");
+		registry.addRecipeCatalyst(new ItemStack(BlocksAether.enchanter), "aether.enchantment");
+		registry.addRecipeCatalyst(new ItemStack(BlocksAether.freezer), "aether.freezable");
 
-		registry.addRecipes(AetherAPI.getInstance().getEnchantmentValues(), "aether_legacy.enchantment");
-		registry.addRecipes(AetherAPI.getInstance().getFreezableValues(), "aether_legacy.freezable");
+		registry.addRecipes(AetherAPI.getInstance().getEnchantmentValues(), "aether.enchantment");
+		registry.addRecipes(AetherAPI.getInstance().getFreezableValues(), "aether.freezable");
 
-		registry.addRecipeClickArea(GuiFreezer.class, 80, 35, 22, 15, "aether_legacy.freezable");
-        registry.addRecipeClickArea(GuiEnchanter.class, 80, 35, 22, 15, "aether_legacy.enchantment");
+		registry.addRecipeClickArea(GuiFreezer.class, 80, 35, 22, 15, "aether.freezable");
+        registry.addRecipeClickArea(GuiEnchanter.class, 80, 35, 22, 15, "aether.enchantment");
 
     }
 

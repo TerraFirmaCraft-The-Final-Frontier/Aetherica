@@ -16,19 +16,19 @@ import io.tff.aether.client.models.entities.MoaModel;
 public class MoaDonatorLayer implements LayerRenderer<EntityMoa>
 {
 
-	private static final ResourceLocation TEXTURE_OUTSIDE = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_outside.png");
+	private static final ResourceLocation TEXTURE_OUTSIDE = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_outside.png");
 
-	private static final ResourceLocation TEXTURE_EYE = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_eye.png");
+	private static final ResourceLocation TEXTURE_EYE = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_eye.png");
 
-	private static final ResourceLocation TEXTURE_BODY = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_body.png");
+	private static final ResourceLocation TEXTURE_BODY = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_body.png");
 
-	private static final ResourceLocation TEXTURE_MARKINGS = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_markings.png");
+	private static final ResourceLocation TEXTURE_MARKINGS = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_markings.png");
 
-	private static final ResourceLocation TEXTURE_WING = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_wing.png");
+	private static final ResourceLocation TEXTURE_WING = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_wing.png");
 
-	private static final ResourceLocation TEXTURE_WING_MARKINGS = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_wing_markings.png");
+	private static final ResourceLocation TEXTURE_WING_MARKINGS = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_wing_markings.png");
 
-	private static final ResourceLocation TEXTURE_UNCHANGED = new ResourceLocation("aether_legacy", "textures/entities/moa/canvas/moa_unchanged.png");
+	private static final ResourceLocation TEXTURE_UNCHANGED = new ResourceLocation("aether", "textures/entities/moa/canvas/moa_unchanged.png");
 
 	private RenderManager renderManager;
 

@@ -77,7 +77,7 @@ public class AetherMusicHandler
 		{
 			if (AetherConfig.audio_options.game_music && this.mc.player != null && this.mc.player.dimension == AetherConfig.dimension.aether_dimension_id)
 			{
-				if (!sound.getSoundLocation().toString().contains("aether_legacy"))
+				if (!sound.getSoundLocation().toString().contains("aether"))
 				{
 					event.setResultSound(null);
 

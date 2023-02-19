@@ -24,7 +24,7 @@ import io.tff.aether.blocks.util.IAetherMeta;
 public class BlockDungeonBase extends Block implements IAetherMeta
 {
 
-	public static final PropertyEnum<EnumStoneType> dungeon_stone = PropertyEnum.create("aether_legacy_dungeon_stone", EnumStoneType.class);
+	public static final PropertyEnum<EnumStoneType> dungeon_stone = PropertyEnum.create("aether_dungeon_stone", EnumStoneType.class);
 
 	public BlockDungeonBase(boolean isLocked) 
 	{

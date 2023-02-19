@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "aether_legacy:items/accessories/leather_gloves",
-		"layer1": "aether_legacy:items/accessories/leather_gloves_overlay"
-	}
-}

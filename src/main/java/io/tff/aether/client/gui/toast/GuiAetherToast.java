@@ -45,7 +45,7 @@ public class GuiAetherToast extends GuiToast
 		{
 			Advancement advancement = getToastAdvancement((AdvancementToast)toastIn);
 
-			if (advancement.getId() != null && advancement.getId().getNamespace().equals("aether_legacy"))
+			if (advancement.getId() != null && advancement.getId().getNamespace().equals("aether"))
 			{
 				String achievementName = advancement.getId().getPath();
 

@@ -20,7 +20,7 @@ public class LayerOldZephyrModel implements LayerRenderer<EntityZephyr>
     private final ZephyrRenderer zephyrRenderer;
     private final ModelBase zephyrModel = new OldZephyrModel();
 
-    private static final ResourceLocation OLD_ZEPHYR = new ResourceLocation("aether_legacy", "textures/entities/zephyr/zephyr_old.png");
+    private static final ResourceLocation OLD_ZEPHYR = new ResourceLocation("aether", "textures/entities/zephyr/zephyr_old.png");
 
     
     public LayerOldZephyrModel(ZephyrRenderer zephyrRendererIn)

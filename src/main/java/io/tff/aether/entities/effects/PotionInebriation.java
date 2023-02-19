@@ -106,14 +106,14 @@ public class PotionInebriation extends Potion
     @Override
     @SideOnly(Side.CLIENT)
     public void renderInventoryEffect(int x, int y, PotionEffect effect, Minecraft mc) {
-        mc.renderEngine.bindTexture(new ResourceLocation("aether_legacy", "textures/gui/inventory/inebriation.png"));
+        mc.renderEngine.bindTexture(new ResourceLocation("aether", "textures/gui/inventory/inebriation.png"));
         Gui.drawModalRectWithCustomSizedTexture(x + 7, y + 8, 0, 0, 16, 16, 16, 16);
     }
 
     @Override
     @SideOnly(Side.CLIENT)
     public void renderHUDEffect(int x, int y, PotionEffect effect, Minecraft mc, float alpha) {
-        mc.renderEngine.bindTexture(new ResourceLocation("aether_legacy", "textures/gui/inventory/inebriation.png"));
+        mc.renderEngine.bindTexture(new ResourceLocation("aether", "textures/gui/inventory/inebriation.png"));
         Gui.drawModalRectWithCustomSizedTexture(x + 4, y + 4, 0, 0, 16, 16, 16, 16);
     }
 

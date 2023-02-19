@@ -163,7 +163,7 @@ public class ItemAccessory extends Item
 
     public ItemAccessory setTexture(String location)
     {
-    	this.texture = new ResourceLocation("aether_legacy", "textures/armor/accessory_" + location + ".png");
+    	this.texture = new ResourceLocation("aether", "textures/armor/accessory_" + location + ".png");
 		this.texture_slim = Aether.locate("textures/armor/accessory_" + location + "_slim.png");
 
     	return this;
@@ -171,7 +171,7 @@ public class ItemAccessory extends Item
 
     public ItemAccessory setElytraTexture(String location)
     {
-        this.texture_elytra = new ResourceLocation("aether_legacy", "textures/armor/accessory_" + location + ".png");
+        this.texture_elytra = new ResourceLocation("aether", "textures/armor/accessory_" + location + ".png");
         this.hasElytra = true;
 
         return this;
@@ -184,8 +184,8 @@ public class ItemAccessory extends Item
 
     public ItemAccessory setInactiveTexture(String location)
     {
-        this.texture_inactive = new ResourceLocation("aether_legacy", "textures/armor/accessory_" + location + ".png");
-        this.texture_inactive_slim = new ResourceLocation("aether_legacy", "textures/armor/accessory_" + location + "_slim.png");
+        this.texture_inactive = new ResourceLocation("aether", "textures/armor/accessory_" + location + ".png");
+        this.texture_inactive_slim = new ResourceLocation("aether", "textures/armor/accessory_" + location + "_slim.png");
         this.hasInactiveTexture = true;
 
         return this;

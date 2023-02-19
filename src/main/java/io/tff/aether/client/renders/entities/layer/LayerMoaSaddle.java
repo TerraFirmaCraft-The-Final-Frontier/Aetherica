@@ -13,9 +13,9 @@ import io.tff.aether.client.renders.entities.MoaRenderer;
 @SideOnly(Side.CLIENT)
 public class LayerMoaSaddle implements LayerRenderer<EntityMoa>
 {
-    private static final ResourceLocation SADDLE = new ResourceLocation("aether_legacy", "textures/entities/moa/moa_saddle.png");
+    private static final ResourceLocation SADDLE = new ResourceLocation("aether", "textures/entities/moa/moa_saddle.png");
 
-    private static final ResourceLocation BLACK_SADDLE = new ResourceLocation("aether_legacy", "textures/entities/moa/black_moa_saddle.png");
+    private static final ResourceLocation BLACK_SADDLE = new ResourceLocation("aether", "textures/entities/moa/black_moa_saddle.png");
 
     private final MoaRenderer moaRenderer;
     private final MoaModel moaModel = new MoaModel(0.25F);

@@ -12,9 +12,9 @@ import org.lwjgl.opengl.GL11;
 public class SentryRenderer extends RenderLiving<EntitySentry>
 {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/sentry/sentry.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/sentry/sentry.png");
 
-    private static final ResourceLocation TEXTURE_LIT = new ResourceLocation("aether_legacy", "textures/entities/sentry/sentry_lit.png");
+    private static final ResourceLocation TEXTURE_LIT = new ResourceLocation("aether", "textures/entities/sentry/sentry_lit.png");
 
 	public SentryRenderer(RenderManager renderManager)
     {

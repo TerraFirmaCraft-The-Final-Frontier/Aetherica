@@ -20,7 +20,7 @@ public class SheepuffRenderer extends RenderLiving<EntitySheepuff>
 	@Override
 	protected ResourceLocation getEntityTexture(EntitySheepuff entity) 
 	{
-		return new ResourceLocation("aether_legacy", "textures/entities/sheepuff/sheepuff.png");
+		return new ResourceLocation("aether", "textures/entities/sheepuff/sheepuff.png");
 	}
 
 }

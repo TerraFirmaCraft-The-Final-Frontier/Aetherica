@@ -37,18 +37,18 @@ public class AetherWorld
 
 	public static void initialization()
 	{
-		MapGenStructureIO.registerStructure(MapGenSilverDungeon.Start.class, "aether_legacy:silver_dungeon_start");
-		MapGenStructureIO.registerStructure(MapGenGoldenDungeon.Start.class, "aether_legacy:golden_dungeon_start");
+		MapGenStructureIO.registerStructure(MapGenSilverDungeon.Start.class, "aether:silver_dungeon_start");
+		MapGenStructureIO.registerStructure(MapGenGoldenDungeon.Start.class, "aether:golden_dungeon_start");
 
-		MapGenStructureIO.registerStructure(MapGenLargeColdAercloud.Start.class, "aether_legacy:large_cold_aercloud_start");
+		MapGenStructureIO.registerStructure(MapGenLargeColdAercloud.Start.class, "aether:large_cold_aercloud_start");
 
-		MapGenStructureIO.registerStructureComponent(ComponentLargeColdAercloud.class, "aether_legacy:large_cold_aercloud_component");
+		MapGenStructureIO.registerStructureComponent(ComponentLargeColdAercloud.class, "aether:large_cold_aercloud_component");
 
-		MapGenStructureIO.registerStructureComponent(ComponentSilverDungeon.class, "aether_legacy:silver_dungeon_component");
+		MapGenStructureIO.registerStructureComponent(ComponentSilverDungeon.class, "aether:silver_dungeon_component");
 
-		MapGenStructureIO.registerStructureComponent(ComponentGoldenDungeon.class, "aether_legacy:golden_dungeon_component");
-		MapGenStructureIO.registerStructureComponent(ComponentGoldenIsland.class, "aether_legacy:golden_island_component");
-		MapGenStructureIO.registerStructureComponent(ComponentGoldenIslandStub.class, "aether_legacy:golden_island_stub_component");
+		MapGenStructureIO.registerStructureComponent(ComponentGoldenDungeon.class, "aether:golden_dungeon_component");
+		MapGenStructureIO.registerStructureComponent(ComponentGoldenIsland.class, "aether:golden_island_component");
+		MapGenStructureIO.registerStructureComponent(ComponentGoldenIslandStub.class, "aether:golden_island_stub_component");
 
 		aether_dimension_type = DimensionType.register("AetherI", "_aetherI", AetherConfig.dimension.aether_dimension_id, AetherWorldProvider.class, false);
 

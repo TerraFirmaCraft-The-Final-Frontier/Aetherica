@@ -19,8 +19,8 @@ import net.minecraft.util.math.MathHelper;
 
 public class MoaRenderer extends RenderLiving<EntityMoa>
 {
-    private static final ResourceLocation MOS = new ResourceLocation("aether_legacy", "textures/entities/moa/mos.png");
-	private static final ResourceLocation RAPTOR = new ResourceLocation("aether_legacy", "textures/entities/moa/raptor.png");
+    private static final ResourceLocation MOS = new ResourceLocation("aether", "textures/entities/moa/mos.png");
+	private static final ResourceLocation RAPTOR = new ResourceLocation("aether", "textures/entities/moa/raptor.png");
 
 	public MoaRenderer(RenderManager renderManager)
 	{

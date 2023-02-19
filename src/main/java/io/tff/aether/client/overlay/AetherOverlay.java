@@ -32,13 +32,13 @@ import io.tff.aether.items.ItemsAether;
 public class AetherOverlay
 {
 
-	private static final ResourceLocation TEXTURE_JUMPS = new ResourceLocation("aether_legacy", "textures/gui/jumps.png");
+	private static final ResourceLocation TEXTURE_JUMPS = new ResourceLocation("aether", "textures/gui/jumps.png");
 
-	private static final ResourceLocation TEXTURE_COOLDOWN_BAR = new ResourceLocation("aether_legacy", "textures/gui/cooldown_bar.png");
+	private static final ResourceLocation TEXTURE_COOLDOWN_BAR = new ResourceLocation("aether", "textures/gui/cooldown_bar.png");
 
-   	private static final ResourceLocation TEXTURE_POISON_VIGNETTE = new ResourceLocation("aether_legacy", "textures/blur/poison_vignette.png");
+   	private static final ResourceLocation TEXTURE_POISON_VIGNETTE = new ResourceLocation("aether", "textures/blur/poison_vignette.png");
 
-    private static final ResourceLocation TEXTURE_CURE_VIGNETTE = new ResourceLocation("aether_legacy", "textures/blur/cure_vignette.png");
+    private static final ResourceLocation TEXTURE_CURE_VIGNETTE = new ResourceLocation("aether", "textures/blur/cure_vignette.png");
  
     public static void renderPoison(Minecraft mc)
     {
@@ -282,7 +282,7 @@ public class AetherOverlay
 
 	        mc.fontRenderer.drawStringWithShadow(bossTitle, width / 2 - (mc.fontRenderer.getStringWidth(bossTitle) / 2), 2, 0xffffffff);
 
-	        mc.renderEngine.bindTexture(new ResourceLocation("aether_legacy", "textures/gui/boss_bar.png"));
+	        mc.renderEngine.bindTexture(new ResourceLocation("aether", "textures/gui/boss_bar.png"));
 
 	        GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
 

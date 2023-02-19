@@ -18,9 +18,9 @@ import org.lwjgl.opengl.GL11;
 public class GuiLore extends GuiContainer
 {
 
-    private static final ResourceLocation TEXTURE_LORE = new ResourceLocation("aether_legacy", "textures/gui/lore.png");
+    private static final ResourceLocation TEXTURE_LORE = new ResourceLocation("aether", "textures/gui/lore.png");
 
-    private static final ResourceLocation TEXTURE_LORE_BOOK = new ResourceLocation("aether_legacy", "textures/gui/lore_book.png");
+    private static final ResourceLocation TEXTURE_LORE_BOOK = new ResourceLocation("aether", "textures/gui/lore_book.png");
 
 	private String stringToLoad;
 

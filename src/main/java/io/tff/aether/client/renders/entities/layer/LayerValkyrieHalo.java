@@ -20,7 +20,7 @@ public class LayerValkyrieHalo implements LayerRenderer<EntityLivingBase>
     private final RenderManager renderManager;
     private final ValkyrieModel valkyrieModel = new ValkyrieModel();
 
-    private static final ResourceLocation TEXTURE_HALO = new ResourceLocation("aether_legacy", "textures/entities/valkyrie/valkyrie.png");
+    private static final ResourceLocation TEXTURE_HALO = new ResourceLocation("aether", "textures/entities/valkyrie/valkyrie.png");
 
     
     public LayerValkyrieHalo(RenderManager renderManagerIn)

@@ -11,7 +11,7 @@ import io.tff.aether.client.models.entities.ValkyrieModel;
 public class ValkyrieQueenRenderer extends RenderLiving<EntityValkyrieQueen>
 {
 
-	private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/bosses/valkyrie_queen/valkyrie_queen.png");
+	private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/bosses/valkyrie_queen/valkyrie_queen.png");
 
 	public ValkyrieQueenRenderer(RenderManager rendermanagerIn)
 	{

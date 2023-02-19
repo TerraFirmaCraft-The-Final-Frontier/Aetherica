@@ -12,7 +12,7 @@ import net.minecraft.util.ResourceLocation;
 public class SentryLayer implements LayerRenderer<EntitySentry>
 {
 
-    private static final ResourceLocation TEXTURE_EYE = new ResourceLocation("aether_legacy", "textures/entities/sentry/eye.png");
+    private static final ResourceLocation TEXTURE_EYE = new ResourceLocation("aether", "textures/entities/sentry/eye.png");
 
 	private final ModelSlime model;
 

@@ -40,8 +40,8 @@ public class GuiEnchanter extends GuiContainer
 	protected void drawGuiContainerForegroundLayer(int par1, int par2)
 	{
 		String enchanterName = AetherConfig.visual_options.legacy_altar_name ?
-				I18n.format("container.aether_legacy.enchanter")
-				: I18n.format("container.aether_legacy.altar");
+				I18n.format("container.aether.enchanter")
+				: I18n.format("container.aether.altar");
 
 		this.fontRenderer.drawString(enchanterName, this.xSize / 2 - this.fontRenderer.getStringWidth(enchanterName) / 2, 6, 4210752);
 		this.fontRenderer.drawString(I18n.format("container.inventory"), 8, this.ySize - 96 + 2, 4210752);

@@ -18,7 +18,7 @@ public class MiniCloudRenderer extends RenderLiving<EntityMiniCloud>
 	@Override
 	protected ResourceLocation getEntityTexture(EntityMiniCloud entity) 
 	{
-		return new ResourceLocation("aether_legacy", "textures/entities/mini_cloud/mini_cloud.png");
+		return new ResourceLocation("aether", "textures/entities/mini_cloud/mini_cloud.png");
 	}
 
 }

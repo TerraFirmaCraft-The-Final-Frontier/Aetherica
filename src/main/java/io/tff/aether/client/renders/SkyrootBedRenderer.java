@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class SkyrootBedRenderer extends TileEntitySpecialRenderer<TileEntityBed>
 {
-    private static final ResourceLocation TEXTURES = new ResourceLocation("aether_legacy", "textures/tile_entities/skyroot_bed.png");
+    private static final ResourceLocation TEXTURES = new ResourceLocation("aether", "textures/tile_entities/skyroot_bed.png");
     private ModelBed model = new ModelBed();
     private int version;
 

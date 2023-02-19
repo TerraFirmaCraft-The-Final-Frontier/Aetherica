@@ -13,7 +13,7 @@ import io.tff.aether.client.models.entities.CockatriceModel;
 public class CockatriceRenderer extends RenderLiving<EntityCockatrice>
 {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/cockatrice/cockatrice.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/cockatrice/cockatrice.png");
 
 	public CockatriceRenderer(RenderManager rendermanagerIn) 
 	{

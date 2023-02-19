@@ -96,7 +96,7 @@ public class PhoenixArrowRenderer extends Render<EntityPhoenixArrow>
 	@Override
 	protected ResourceLocation getEntityTexture(EntityPhoenixArrow entity) 
 	{
-		return new ResourceLocation("aether_legacy", "textures/entities/projectile/flaming_arrow.png");
+		return new ResourceLocation("aether", "textures/entities/projectile/flaming_arrow.png");
 	}
 
 }

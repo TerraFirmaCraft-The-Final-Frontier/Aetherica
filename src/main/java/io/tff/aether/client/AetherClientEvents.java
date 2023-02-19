@@ -427,7 +427,7 @@ public class AetherClientEvents
 	{
 		for (int i = 0; i < InventoryAccessories.EMPTY_SLOT_NAMES.length; ++i)
 		{
-			event.getMap().registerSprite(new ResourceLocation("aether_legacy", "items/slots/" + InventoryAccessories.EMPTY_SLOT_NAMES[i]));
+			event.getMap().registerSprite(new ResourceLocation("aether", "items/slots/" + InventoryAccessories.EMPTY_SLOT_NAMES[i]));
 		}
 	}
 

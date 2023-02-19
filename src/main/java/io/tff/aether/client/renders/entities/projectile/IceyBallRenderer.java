@@ -32,7 +32,7 @@ public class IceyBallRenderer extends RenderLiving<EntityIceyBall>
 	@Override
 	protected ResourceLocation getEntityTexture(EntityIceyBall entity)
 	{
-    	return new ResourceLocation("aether_legacy", "textures/entities/crystals/iceyball.png");
+    	return new ResourceLocation("aether", "textures/entities/crystals/iceyball.png");
 	}
 
 }

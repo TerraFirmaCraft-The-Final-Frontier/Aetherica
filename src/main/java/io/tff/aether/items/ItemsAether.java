@@ -30,7 +30,6 @@ import io.tff.aether.items.tools.ItemAetherParachute;
 import io.tff.aether.items.tools.ItemGravititeTool;
 import io.tff.aether.items.tools.ItemHolystoneTool;
 import io.tff.aether.items.tools.ItemSkyrootBucket;
-import io.tff.aether.items.tools.ItemSkyrootTool;
 import io.tff.aether.items.tools.ItemValkyrieTool;
 import io.tff.aether.items.tools.ItemZaniteTool;
 import io.tff.aether.items.weapons.ItemCandyCaneSword;
@@ -38,9 +37,8 @@ import io.tff.aether.items.weapons.ItemElementalSword;
 import io.tff.aether.items.weapons.ItemGravititeSword;
 import io.tff.aether.items.weapons.ItemHolystoneSword;
 import io.tff.aether.items.weapons.ItemLightningKnife;
-import io.tff.aether.items.weapons.ItemNotchHammer;
+import io.tff.aether.items.weapons.ItemMikuHammer;
 import io.tff.aether.items.weapons.ItemPigSlayer;
-import io.tff.aether.items.weapons.ItemSkyrootSword;
 import io.tff.aether.items.weapons.ItemValkyrieLance;
 import io.tff.aether.items.weapons.ItemVampireBlade;
 import io.tff.aether.items.weapons.ItemZaniteSword;
@@ -57,11 +55,9 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ItemsAether 
 {
 
-	public static EnumRarity aether_loot = EnumHelper.addRarity("aether_legacy_loot", TextFormatting.GREEN, "Aether Loot");
+	public static EnumRarity aether_loot = EnumHelper.addRarity("aether_loot", TextFormatting.GREEN, "Aether Loot");
 
 	public static Item zanite_gemstone, ambrosium_shard, golden_amber, aechor_petal, swetty_ball;
-
-	public static Item skyroot_pickaxe, skyroot_axe, skyroot_shovel, skyroot_sword;
 
 	public static Item holystone_pickaxe, holystone_axe, holystone_shovel, holystone_sword;
 
@@ -85,7 +81,7 @@ public class ItemsAether
 
 	public static Item blue_berry, gummy_swet, healing_stone, white_apple, ginger_bread_man, candy_cane, enchanted_blueberry;
 
-	public static Item skyroot_stick, victory_medal;
+	public static Item victory_medal;
 
 	public static Item dungeon_key, skyroot_bucket, cloud_parachute, golden_parachute;
 
@@ -95,9 +91,9 @@ public class ItemsAether
 
 	public static Item flaming_sword, lightning_sword, holy_sword;
 
-	public static Item vampire_blade, pig_slayer, candy_cane_sword, notch_hammer, valkyrie_lance;
+	public static Item vampire_blade, pig_slayer, candy_cane_sword, miku_hammer, valkyrie_lance;
 
-	public static Item leather_gloves, iron_gloves, golden_gloves, chain_gloves, diamond_gloves;
+	public static Item wool_gloves, leather_gloves, scoured_leather_gloves, tanned_leather_gloves, iron_gloves, golden_gloves, chain_gloves, diamond_gloves;
 
 	public static Item zanite_gloves, gravitite_gloves, neptune_gloves, phoenix_gloves, obsidian_gloves, valkyrie_gloves;
 
@@ -131,9 +127,7 @@ public class ItemsAether
 		aechor_petal = register("aechor_petal", new ItemAether(AetherCreativeTabs.material));
 		swetty_ball = register("swetty_ball", new ItemSwettyBall(AetherCreativeTabs.material));
 
-		skyroot_pickaxe = register("skyroot_pickaxe", new ItemSkyrootTool(EnumAetherToolType.PICKAXE));
-		skyroot_axe = register("skyroot_axe", new ItemSkyrootTool(EnumAetherToolType.AXE));
-		skyroot_shovel = register("skyroot_shovel", new ItemSkyrootTool(EnumAetherToolType.SHOVEL));
+
 
 		holystone_pickaxe = register("holystone_pickaxe", new ItemHolystoneTool(EnumAetherToolType.PICKAXE));
 		holystone_axe = register("holystone_axe", new ItemHolystoneTool(EnumAetherToolType.AXE));
@@ -181,6 +175,8 @@ public class ItemsAether
 		valkyrie_leggings = register("valkyrie_leggings", new ItemAetherArmor(EntityEquipmentSlot.LEGS, ArmorMaterial.DIAMOND, "valkyrie", null));
 		valkyrie_boots = register("valkyrie_boots", new ItemAetherArmor(EntityEquipmentSlot.FEET, ArmorMaterial.DIAMOND, "valkyrie", null));
 
+
+
 		blue_berry = register("blue_berry", new ItemAetherFood(2));
 		enchanted_blueberry = register("enchanted_blueberry", new ItemAetherFood(8));
 		white_apple = register("white_apple", new ItemWhiteApple());
@@ -189,7 +185,6 @@ public class ItemsAether
 		candy_cane = register("candy_cane", new ItemAetherFood(2));
 		ginger_bread_man = register("ginger_bread_man", new ItemAetherFood(2));
 
-		skyroot_stick = register("skyroot_stick", new Item().setCreativeTab(AetherCreativeTabs.material));
 		victory_medal = register("victory_medal", new ItemVictoryMedal());
 
 		dungeon_key = register("dungeon_key", new ItemDungeonKey());
@@ -203,7 +198,6 @@ public class ItemsAether
 		phoenix_bow = register("phoenix_bow", new ItemPhoenixBow());
 		dart = register("dart", new ItemDart());
 
-		skyroot_sword = register("skyroot_sword", new ItemSkyrootSword());
 		holystone_sword = register("holystone_sword", new ItemHolystoneSword());
 		zanite_sword = register("zanite_sword", new ItemZaniteSword());
 		gravitite_sword = register("gravitite_sword", new ItemGravititeSword());
@@ -215,9 +209,18 @@ public class ItemsAether
 		vampire_blade = register("vampire_blade", new ItemVampireBlade());
 		pig_slayer = register("pig_slayer", new ItemPigSlayer());
 		candy_cane_sword = register("candy_cane_sword", new ItemCandyCaneSword());
-		notch_hammer = register("notch_hammer", new ItemNotchHammer());
+		miku_hammer = register("miku_hammer", new ItemMikuHammer());
 
-		leather_gloves = register("leather_gloves", new ItemAccessoryDyable(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_LEATHER));
+
+		/* ---------------- Gloves ---------------- */
+
+		wool_gloves = register("wool_gloves", new ItemAccessoryDyable(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_LEATHER));
+
+		leather_gloves = register("leather_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_LEATHER));
+		scoured_leather_gloves = register("scoured_leather_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_LEATHER));
+		tanned_leather_gloves = register("tanned_leather_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_LEATHER));
+
+		//ToDo: Generate gloves from TFC metals
 		iron_gloves = register("iron_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_IRON));
 		golden_gloves = register("golden_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_GOLD).setColor(0xFBF424));
 		chain_gloves = register("chain_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_CHAIN).setTexture("chain"));
@@ -230,10 +233,16 @@ public class ItemsAether
 		obsidian_gloves = register("obsidian_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND).setDungeonLoot().setTexture("obsidian"));
 		valkyrie_gloves = register("valkyrie_gloves", new ItemAccessory(AccessoryType.GLOVE).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND).setDungeonLoot().setTexture("valkyrie"));
 
+
+		/* ---------------- Rings ---------------- */
+
 		iron_ring = register("iron_ring", new ItemAccessory(AccessoryType.RING).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_IRON));
 		golden_ring = register("golden_ring", new ItemAccessory(AccessoryType.RING).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_GOLD).setColor(0xeaee57));
 		zanite_ring = register("zanite_ring", new ItemAccessory(AccessoryType.RING).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_IRON).setTexture("zanite").setMaxDamage(49));
 		ice_ring = register("ice_ring", new ItemAccessory(AccessoryType.RING).setColor(0x95e6e7).setMaxDamage(125));
+
+
+		/* ---------------- Pendants ---------------- */
 
 		iron_pendant = register("iron_pendant", new ItemAccessory(AccessoryType.PENDANT).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_IRON));
 		golden_pendant = register("golden_pendant", new ItemAccessory(AccessoryType.PENDANT).setEquipSound(SoundEvents.ITEM_ARMOR_EQUIP_GOLD).setColor(0xeaee57));
@@ -245,9 +254,16 @@ public class ItemsAether
 		yellow_cape = register("yellow_cape", new ItemAccessory(AccessoryType.CAPE).setElytraTexture("base_elytra").setColor(0xcdcb0e));
 		white_cape = register("white_cape", new ItemAccessory(AccessoryType.CAPE).setElytraTexture("base_elytra"));
 		swet_cape = register("swet_cape", new ItemAccessory(AccessoryType.CAPE).setTexture("swet_cape").setElytraTexture("swet_cape_elytra").setDungeonLoot());
+
+
+		/* ---------------- Capes ---------------- */
+
 		invisibility_cape = register("invisibility_cape", new ItemAccessory(AccessoryType.CAPE).setDungeonLoot());
 		agility_cape = register("agility_cape", new ItemAccessory(AccessoryType.CAPE).setTexture("agility_cape").setElytraTexture("agility_cape_elytra").setDungeonLoot());
 		valkyrie_cape = register("valkyrie_cape", new ItemAccessory(AccessoryType.CAPE).setTexture("valkyrie_cape").setElytraTexture("valkyrie_cape_elytra").setDungeonLoot());
+
+
+		/* ---------------- Misc Equipment ---------------- */
 
 		golden_feather = register("golden_feather", new ItemAccessory(AccessoryType.MISC).setDungeonLoot());
 		regeneration_stone = register("regeneration_stone", new ItemAccessory(AccessoryType.MISC).setDungeonLoot());

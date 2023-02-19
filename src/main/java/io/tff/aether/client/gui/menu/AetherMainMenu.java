@@ -59,8 +59,8 @@ public class AetherMainMenu extends GuiMainMenu
     private String openGLWarning2;
     private String openGLWarningLink;
     private static final ResourceLocation SPLASH_TEXTS = new ResourceLocation("texts/splashes.txt");
-    private static final ResourceLocation AETHER_TITLE_TEXTURES = new ResourceLocation("aether_legacy", "textures/gui/menu/aether.png");
-    private static final ResourceLocation[] TITLE_PANORAMA_PATHS = new ResourceLocation[] {new ResourceLocation("aether_legacy", "textures/gui/menu/panorama/panorama_0.png"), new ResourceLocation("aether_legacy", "textures/gui/menu/panorama/panorama_1.png"), new ResourceLocation("aether_legacy", "textures/gui/menu/panorama/panorama_2.png"), new ResourceLocation("aether_legacy", "textures/gui/menu/panorama/panorama_3.png"), new ResourceLocation("aether_legacy", "textures/gui/menu/panorama/panorama_4.png"), new ResourceLocation("aether_legacy", "textures/gui/menu/panorama/panorama_5.png")};
+    private static final ResourceLocation AETHER_TITLE_TEXTURES = new ResourceLocation("aether", "textures/gui/menu/aether.png");
+    private static final ResourceLocation[] TITLE_PANORAMA_PATHS = new ResourceLocation[] {new ResourceLocation("aether", "textures/gui/menu/panorama/panorama_0.png"), new ResourceLocation("aether", "textures/gui/menu/panorama/panorama_1.png"), new ResourceLocation("aether", "textures/gui/menu/panorama/panorama_2.png"), new ResourceLocation("aether", "textures/gui/menu/panorama/panorama_3.png"), new ResourceLocation("aether", "textures/gui/menu/panorama/panorama_4.png"), new ResourceLocation("aether", "textures/gui/menu/panorama/panorama_5.png")};
     private ResourceLocation backgroundTexture;
     private GuiButton realmsButton;
     private boolean hasCheckedForRealmsNotification;

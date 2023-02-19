@@ -20,7 +20,7 @@ import net.minecraft.util.ResourceLocation;
 public class GuiAccessories extends GuiContainer
 {
 
-	private static final ResourceLocation ACCESSORIES = new ResourceLocation("aether_legacy", "textures/gui/inventory/accessories.png");
+	private static final ResourceLocation ACCESSORIES = new ResourceLocation("aether", "textures/gui/inventory/accessories.png");
 
 	IPlayerAether playerAether;
 

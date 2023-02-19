@@ -60,10 +60,6 @@ public class AetherRegistries
 
 	public static void initializeEnchantments(IForgeRegistry<AetherEnchantment> registry)
 	{
-		registry.register(new AetherEnchantment(ItemsAether.skyroot_pickaxe, 225));
-		registry.register(new AetherEnchantment(ItemsAether.skyroot_axe, 225));
-		registry.register(new AetherEnchantment(ItemsAether.skyroot_shovel, 225));
-		registry.register(new AetherEnchantment(ItemsAether.skyroot_sword, 225));
 
 		registry.register(new AetherEnchantment(ItemsAether.holystone_pickaxe, 550));
 		registry.register(new AetherEnchantment(ItemsAether.holystone_axe, 550));

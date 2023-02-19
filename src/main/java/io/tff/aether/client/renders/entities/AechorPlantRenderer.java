@@ -12,7 +12,7 @@ import io.tff.aether.client.models.entities.AechorPlantModel;
 public class AechorPlantRenderer extends RenderLiving<EntityAechorPlant>
 {
 
-    public static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/aechor_plant/aechor_plant.png");
+    public static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/aechor_plant/aechor_plant.png");
 
     public AechorPlantModel mode;
 

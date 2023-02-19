@@ -111,8 +111,7 @@ public abstract class ItemAetherTool extends ItemTool
     @Override
     public boolean canDisableShield(ItemStack stack, ItemStack shield, EntityLivingBase entity, EntityLivingBase attacker)
     {
-        return stack.getItem() == ItemsAether.skyroot_axe ||
-                stack.getItem() == ItemsAether.holystone_axe ||
+        return stack.getItem() == ItemsAether.holystone_axe ||
                 stack.getItem() == ItemsAether.zanite_axe ||
                 stack.getItem() == ItemsAether.gravitite_axe ||
                 stack.getItem() == ItemsAether.valkyrie_axe;
@@ -121,8 +120,7 @@ public abstract class ItemAetherTool extends ItemTool
     @Override
     public boolean isBookEnchantable(ItemStack stack, ItemStack book)
     {
-        return  ((stack.getItem() == ItemsAether.skyroot_axe ||
-                stack.getItem() == ItemsAether.holystone_axe ||
+        return  ((stack.getItem() == ItemsAether.holystone_axe ||
                 stack.getItem() == ItemsAether.zanite_axe ||
                 stack.getItem() == ItemsAether.gravitite_axe ||
                 stack.getItem() == ItemsAether.valkyrie_axe) &&

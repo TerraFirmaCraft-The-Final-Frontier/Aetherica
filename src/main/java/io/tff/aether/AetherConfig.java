@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 /**
  * PLEASE NOTE: IF YOU ARE GOING TO CHANGE ANY EXISTING
  * CONFIGURATION VARIABLES, YOU MUST DELETE YOUR EXISTING
- * aether_legacy.cfg FILE IN THE CONFIG FOLDER OF YOUR
+ * aether.cfg FILE IN THE CONFIG FOLDER OF YOUR
  * TESTING DIRECTORY (normally named "run")
  */
 @Config(modid = Aether.modid)
@@ -37,10 +37,10 @@ public class AetherConfig
 		public boolean seasonal_christmas = true;
 		
 		@Config.Comment("Enables naturally generating tallgrass")
-		public boolean tallgrass_enabled = false;
+		public boolean tallgrass_enabled = true;
 		
 		@Config.Comment("Enables natural Pink Aercloud generation")
-		public boolean pink_aerclouds = false;
+		public boolean pink_aerclouds = true;
 	}
 	
 	public static final VisualOptions visual_options = new VisualOptions();
@@ -61,10 +61,10 @@ public class AetherConfig
 		public boolean menu_enabled = false;
 
 		@Config.Comment("Enables the Aether Menu toggle button")
-		public boolean menu_button = true;
+		public boolean menu_button = false;
 
 		@Config.Comment("Determines whether the Aether b1.7.3 resource pack should be generated.")
-		public boolean install_resourcepack = true;
+		public boolean install_resourcepack = false;
 
 		@Config.Comment("Changes whether the Altar should be named Enchanter or not.")
 		public boolean legacy_altar_name = false;
@@ -107,13 +107,13 @@ public class AetherConfig
 		public boolean golden_feather = false;
 
 		@Config.Comment("Disables spawn of the Aether portal for use with portal being provided by another mod.")
-		public boolean disable_portal = false;
+		public boolean disable_portal = true;
 		
 		@Config.Comment("Disables startup loot when entering the Aether")
-		public boolean disable_startup_loot = false;
+		public boolean disable_startup_loot = true;
 
 		@Config.Comment("Removes the requirement for a player to be an operator to use the Sun Altar in multiplayer.")
-		public boolean sun_altar_multiplayer = false;
+		public boolean sun_altar_multiplayer = true;
 		
 		@Config.Comment("If disabed, the Sun Spirit's dialog will only show once per world.")
 		public boolean repeat_sun_spirit_dialog = true;

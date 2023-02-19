@@ -24,7 +24,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryEntry;
 import net.minecraftforge.registries.RegistryBuilder;
 
-@Mod.EventBusSubscriber(modid = "aether_legacy")
+@Mod.EventBusSubscriber(modid = "aether")
 public class AetherAPI
 {
 

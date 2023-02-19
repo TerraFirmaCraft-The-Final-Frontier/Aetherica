@@ -32,7 +32,7 @@ public class ThunderBallRenderer extends RenderLiving<EntityThunderBall>
 	@Override
 	protected ResourceLocation getEntityTexture(EntityThunderBall entity) 
 	{
-    	return new ResourceLocation("aether_legacy", "textures/entities/crystals/electroball.png");
+    	return new ResourceLocation("aether", "textures/entities/crystals/electroball.png");
 	}
 
 }

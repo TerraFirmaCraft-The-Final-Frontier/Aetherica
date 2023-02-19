@@ -11,13 +11,13 @@ import io.tff.aether.client.models.entities.SliderModel;
 public class SliderRenderer extends RenderLiving<EntitySlider>
 {
 
-	private static final ResourceLocation TEXTURE_AWAKE_RED = new ResourceLocation("aether_legacy", "textures/bosses/slider/slider_awake_critical.png");
+	private static final ResourceLocation TEXTURE_AWAKE_RED = new ResourceLocation("aether", "textures/bosses/slider/slider_awake_critical.png");
 
-	private static final ResourceLocation TEXTURE_AWAKE = new ResourceLocation("aether_legacy", "textures/bosses/slider/slider_awake.png");
+	private static final ResourceLocation TEXTURE_AWAKE = new ResourceLocation("aether", "textures/bosses/slider/slider_awake.png");
 
-	private static final ResourceLocation TEXTURE_SLEEP = new ResourceLocation("aether_legacy", "textures/bosses/slider/slider_asleep.png");
+	private static final ResourceLocation TEXTURE_SLEEP = new ResourceLocation("aether", "textures/bosses/slider/slider_asleep.png");
 
-	private static final ResourceLocation TEXTURE_SLEEP_RED = new ResourceLocation("aether_legacy", "textures/bosses/slider/slider_asleep_critical.png");
+	private static final ResourceLocation TEXTURE_SLEEP_RED = new ResourceLocation("aether", "textures/bosses/slider/slider_asleep_critical.png");
 
 	public SliderRenderer(RenderManager renderManager)
     {

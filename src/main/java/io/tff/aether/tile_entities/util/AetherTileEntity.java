@@ -48,7 +48,7 @@ public abstract class AetherTileEntity extends TileEntity implements ISidedInven
 	@Override
     public ITextComponent getDisplayName()
     {
-        return (ITextComponent)(this.hasCustomName() ? new TextComponentString(this.getName()) : new TextComponentTranslation("container.aether_legacy." + this.getName(), new Object[0]));
+        return (ITextComponent)(this.hasCustomName() ? new TextComponentString(this.getName()) : new TextComponentTranslation("container.aether." + this.getName(), new Object[0]));
     }
 
 	@Override

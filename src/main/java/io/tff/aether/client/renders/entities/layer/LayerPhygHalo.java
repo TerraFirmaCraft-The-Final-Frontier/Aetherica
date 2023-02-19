@@ -18,7 +18,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 @SideOnly(Side.CLIENT)
 public class LayerPhygHalo implements LayerRenderer<EntityPhyg>
 {
-	private final ResourceLocation TEXTURE_HALO = new ResourceLocation("aether_legacy", "textures/other/halo.png");
+	private final ResourceLocation TEXTURE_HALO = new ResourceLocation("aether", "textures/other/halo.png");
 
 	private RenderManager renderManager;
     

@@ -48,7 +48,7 @@ public class SlotAccessory extends Slot
     @SideOnly(Side.CLIENT)
     public String getSlotTexture()
     {
-        return "aether_legacy:items/slots/" + InventoryAccessories.EMPTY_SLOT_NAMES[this.getSlotIndex()];
+        return "aether:items/slots/" + InventoryAccessories.EMPTY_SLOT_NAMES[this.getSlotIndex()];
     }
 
 	public AccessoryType getAccessoryType()

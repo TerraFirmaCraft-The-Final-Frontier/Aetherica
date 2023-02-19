@@ -815,7 +815,7 @@ public class EntitySunSpirit extends EntityFlying implements IMob, IAetherBoss, 
 
     public String getBossTitle()
     {
-        return this.getBossName() + ", " + new TextComponentTranslation("title.aether_legacy.sun_spirit.name", new Object[0]).getFormattedText();
+        return this.getBossName() + ", " + new TextComponentTranslation("title.aether.sun_spirit.name", new Object[0]).getFormattedText();
     }
 
     public int getChatLine()

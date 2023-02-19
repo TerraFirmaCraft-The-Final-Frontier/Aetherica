@@ -11,7 +11,7 @@ import net.minecraft.util.ResourceLocation;
 public class ValkyrieRenderer extends RenderLiving<EntityValkyrie>
 {
 
-	private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/valkyrie/valkyrie.png");
+	private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/valkyrie/valkyrie.png");
 
 	public ValkyrieRenderer(RenderManager rendermanagerIn)
 	{

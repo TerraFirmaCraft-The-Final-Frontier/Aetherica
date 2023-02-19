@@ -742,7 +742,7 @@ public class EntityValkyrieQueen extends EntityBossMob implements IAetherBoss
 
 	public String getBossTitle()
 	{
-		return this.getBossName() + ", " + new TextComponentTranslation("title.aether_legacy.valkyrie_queen.name", new Object[0]).getFormattedText();
+		return this.getBossName() + ", " + new TextComponentTranslation("title.aether.valkyrie_queen.name", new Object[0]).getFormattedText();
 	}
 
 	public void setBossReady(boolean isReady)

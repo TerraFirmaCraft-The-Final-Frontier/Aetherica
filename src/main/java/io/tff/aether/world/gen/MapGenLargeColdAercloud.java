@@ -20,7 +20,7 @@ public class MapGenLargeColdAercloud extends MapGenStructure
 	@Override
 	public String getStructureName()
 	{
-		return "aether_legacy:cold_aercloud";
+		return "aether:cold_aercloud";
 	}
 
 	@Override

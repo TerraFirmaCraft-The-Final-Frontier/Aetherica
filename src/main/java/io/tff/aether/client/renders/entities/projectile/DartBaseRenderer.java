@@ -108,7 +108,7 @@ public class DartBaseRenderer extends Render<EntityDartBase>
     protected ResourceLocation getEntityTexture(EntityDartBase entity)
     {
     	String base = entity instanceof EntityDartGolden ? "golden" : entity instanceof EntityDartEnchanted ? "enchanted" : "poison";
-        return new ResourceLocation("aether_legacy", "textures/entities/projectile/dart/" + base + (entity instanceof EntityPoisonNeedle ? "_needle" : "_dart") + ".png");
+        return new ResourceLocation("aether", "textures/entities/projectile/dart/" + base + (entity instanceof EntityPoisonNeedle ? "_needle" : "_dart") + ".png");
     }
 
 }

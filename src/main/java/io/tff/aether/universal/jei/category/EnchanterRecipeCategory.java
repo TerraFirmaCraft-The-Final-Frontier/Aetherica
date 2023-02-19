@@ -36,7 +36,7 @@ public class EnchanterRecipeCategory implements IRecipeCategory<EnchanterRecipeW
 	@Override
 	public String getUid() 
 	{
-		return "aether_legacy.enchantment";
+		return "aether.enchantment";
 	}
 
 	@Override
@@ -87,7 +87,7 @@ public class EnchanterRecipeCategory implements IRecipeCategory<EnchanterRecipeW
 	@Override
 	public String getModName()
 	{
-		return "aether_legacy";
+		return "aether";
 	}
 
 }

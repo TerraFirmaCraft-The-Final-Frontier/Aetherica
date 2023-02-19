@@ -16,9 +16,9 @@ import io.tff.aether.blocks.dungeon.BlockTreasureChest;
 public class TreasureChestRenderer extends TileEntitySpecialRenderer<TileEntityTreasureChest>
 {
 
-	private static final ResourceLocation TEXTURE_DOUBLE = new ResourceLocation("aether_legacy", "textures/tile_entities/treasure_chest_large.png");
+	private static final ResourceLocation TEXTURE_DOUBLE = new ResourceLocation("aether", "textures/tile_entities/treasure_chest_large.png");
 
-	private static final ResourceLocation TEXTURE_SINGLE = new ResourceLocation("aether_legacy", "textures/tile_entities/treasure_chest.png");
+	private static final ResourceLocation TEXTURE_SINGLE = new ResourceLocation("aether", "textures/tile_entities/treasure_chest.png");
 
 	private final ModelChest chestModel = new ModelChest();
 

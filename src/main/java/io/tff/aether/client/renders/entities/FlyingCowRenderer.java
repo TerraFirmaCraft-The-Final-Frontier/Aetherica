@@ -12,7 +12,7 @@ import io.tff.aether.client.models.entities.FlyingCowModel;
 public class FlyingCowRenderer extends RenderLiving<EntityFlyingCow>
 {
 
-	private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/flying_cow/flying_cow.png");
+	private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/flying_cow/flying_cow.png");
 
 	public FlyingCowRenderer(RenderManager renderManager)
 	{

@@ -20,7 +20,7 @@ public class LayerZephyrTransparency implements LayerRenderer<EntityZephyr>
     private final ZephyrRenderer zephyrRenderer;
     private final ModelBase zephyrModel = new ZephyrModel();
 
-    private static final ResourceLocation TRANS = new ResourceLocation("aether_legacy", "textures/entities/zephyr/zephyr_layer.png");
+    private static final ResourceLocation TRANS = new ResourceLocation("aether", "textures/entities/zephyr/zephyr_layer.png");
 
     
     public LayerZephyrTransparency(ZephyrRenderer zephyrRendererIn)

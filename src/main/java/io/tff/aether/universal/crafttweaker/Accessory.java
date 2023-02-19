@@ -13,7 +13,7 @@ import crafttweaker.CraftTweakerAPI;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.minecraft.CraftTweakerMC;
 
-@ZenClass("mods.aether_legacy.Accessory")
+@ZenClass("mods.aether.Accessory")
 public class Accessory {
 
     public static final IForgeRegistry<AetherAccessory> accessories = GameRegistry.findRegistry(AetherAccessory.class);

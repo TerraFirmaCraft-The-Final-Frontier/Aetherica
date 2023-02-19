@@ -36,7 +36,7 @@ public class FreezerRecipeCategory implements IRecipeCategory<FreezerRecipeWrapp
 	@Override
 	public String getUid() 
 	{
-		return "aether_legacy.freezable";
+		return "aether.freezable";
 	}
 
 	@Override
@@ -87,7 +87,7 @@ public class FreezerRecipeCategory implements IRecipeCategory<FreezerRecipeWrapp
 	@Override
 	public String getModName()
 	{
-		return "aether_legacy";
+		return "aether";
 	}
 
 }

@@ -10,7 +10,7 @@ import io.tff.aether.client.models.entities.FlyingCowWingModel;
 public class FlyingCowWingLayer implements LayerRenderer<EntityFlyingCow>
 {
 
-	private static final ResourceLocation TEXTURE_WINGS = new ResourceLocation("aether_legacy", "textures/entities/flying_cow/wings.png");
+	private static final ResourceLocation TEXTURE_WINGS = new ResourceLocation("aether", "textures/entities/flying_cow/wings.png");
 
 	private RenderManager renderManager;
 

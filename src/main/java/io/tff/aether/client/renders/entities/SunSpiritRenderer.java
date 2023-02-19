@@ -11,8 +11,8 @@ import net.minecraft.util.ResourceLocation;
 public class SunSpiritRenderer extends RenderBiped<EntitySunSpirit>
 {
 
-    private static final ResourceLocation SPIRIT = new ResourceLocation("aether_legacy", "textures/bosses/sun_spirit/sun_spirit.png");
-    private static final ResourceLocation SPIRIT_FROZE = new ResourceLocation("aether_legacy", "textures/bosses/sun_spirit/frozen_sun_spirit.png");
+    private static final ResourceLocation SPIRIT = new ResourceLocation("aether", "textures/bosses/sun_spirit/sun_spirit.png");
+    private static final ResourceLocation SPIRIT_FROZE = new ResourceLocation("aether", "textures/bosses/sun_spirit/frozen_sun_spirit.png");
 
     public SunSpiritRenderer(RenderManager renderManager)
     {

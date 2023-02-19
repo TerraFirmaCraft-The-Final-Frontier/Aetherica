@@ -15,7 +15,7 @@ import io.tff.aether.client.models.entities.AerbunnyModel;
 public class AerbunnyRenderer extends RenderLiving<EntityAerbunny>
 {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/aerbunny/aerbunny.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/aerbunny/aerbunny.png");
 
     public AerbunnyModel model;
 

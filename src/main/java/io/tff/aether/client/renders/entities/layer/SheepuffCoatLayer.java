@@ -15,7 +15,7 @@ import io.tff.aether.client.renders.entities.SheepuffRenderer;
 public class SheepuffCoatLayer implements LayerRenderer<EntitySheepuff>
 {
 
-    private final ResourceLocation TEXTURE_FUR = new ResourceLocation("aether_legacy", "textures/entities/sheepuff/fur.png");
+    private final ResourceLocation TEXTURE_FUR = new ResourceLocation("aether", "textures/entities/sheepuff/fur.png");
 
 	private RenderManager renderManager;
 

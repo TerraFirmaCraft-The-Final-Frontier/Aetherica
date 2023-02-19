@@ -14,7 +14,7 @@ import net.minecraft.util.ResourceLocation;
 public class ZephyrRenderer extends RenderLiving<EntityZephyr>
 {
 
-    private static final ResourceLocation ZEPHYR_TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/zephyr/zephyr_main.png");
+    private static final ResourceLocation ZEPHYR_TEXTURE = new ResourceLocation("aether", "textures/entities/zephyr/zephyr_main.png");
 
 	public ZephyrRenderer(RenderManager rendermanagerIn)
 	{

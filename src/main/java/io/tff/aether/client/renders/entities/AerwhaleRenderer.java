@@ -13,8 +13,8 @@ import org.lwjgl.opengl.GL11;
 
 public class AerwhaleRenderer extends RenderLiving<EntityAerwhale>
 {
-    private static final ResourceLocation AERWHALE_TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/aerwhale/aerwhale.png");
-    private static final ResourceLocation OLD_AERWHALE_TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/aerwhale/old_aerwhale.png");
+    private static final ResourceLocation AERWHALE_TEXTURE = new ResourceLocation("aether", "textures/entities/aerwhale/aerwhale.png");
+    private static final ResourceLocation OLD_AERWHALE_TEXTURE = new ResourceLocation("aether", "textures/entities/aerwhale/old_aerwhale.png");
 
     public AerwhaleRenderer(RenderManager rendermanagerIn)
     {

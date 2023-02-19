@@ -53,7 +53,7 @@ public class HammerProjectileRenderer extends Render<EntityHammerProjectile>
 	@Override
 	protected ResourceLocation getEntityTexture(EntityHammerProjectile entity)
 	{
-		return new ResourceLocation("aether_legacy", "textures/entities/projectile/notch_wave.png");
+		return new ResourceLocation("aether", "textures/entities/projectile/notch_wave.png");
 	}
 
 }

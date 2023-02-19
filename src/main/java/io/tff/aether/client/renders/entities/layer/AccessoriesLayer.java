@@ -32,9 +32,9 @@ public class AccessoriesLayer implements LayerRenderer<AbstractClientPlayer>
 
 	private final RenderManager manager = Minecraft.getMinecraft().getRenderManager();
 
-	private final ResourceLocation TEXTURE_VALKYRIE = new ResourceLocation("aether_legacy", "textures/entities/valkyrie/valkyrie.png");
+	private final ResourceLocation TEXTURE_VALKYRIE = new ResourceLocation("aether", "textures/entities/valkyrie/valkyrie.png");
 
-	private final ResourceLocation TEXTURE_HALO = new ResourceLocation("aether_legacy", "textures/other/halo.png");
+	private final ResourceLocation TEXTURE_HALO = new ResourceLocation("aether", "textures/other/halo.png");
 
 	private boolean slimFit;
 

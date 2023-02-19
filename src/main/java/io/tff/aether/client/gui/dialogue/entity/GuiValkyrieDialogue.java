@@ -23,7 +23,7 @@ public class GuiValkyrieDialogue extends GuiDialogue
 
 	public GuiValkyrieDialogue(EntityValkyrieQueen valkyrieQueen) 
 	{
-		super("[" + TextFormatting.YELLOW + valkyrieQueen.getBossName() + ", " + I18n.format("title.aether_legacy.valkyrie_queen.name") + TextFormatting.RESET + "]", new DialogueOption(I18n.format("gui.queen.dialog.0")), new DialogueOption(I18n.format("gui.queen.dialog.1")), new DialogueOption(I18n.format("gui.queen.dialog.2")));
+		super("[" + TextFormatting.YELLOW + valkyrieQueen.getBossName() + ", " + I18n.format("title.aether.valkyrie_queen.name") + TextFormatting.RESET + "]", new DialogueOption(I18n.format("gui.queen.dialog.0")), new DialogueOption(I18n.format("gui.queen.dialog.1")), new DialogueOption(I18n.format("gui.queen.dialog.2")));
 
 		this.title = this.getDialogue();
 		this.valkyrieQueen = valkyrieQueen;

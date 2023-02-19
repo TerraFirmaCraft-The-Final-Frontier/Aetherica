@@ -53,7 +53,7 @@ public class AetherTrivia
         try
         {
             List<String> list = Lists.newArrayList();
-            iresource = Minecraft.getMinecraft().getResourceManager().getResource(new ResourceLocation("aether_legacy", "texts/" + localization + ".txt"));
+            iresource = Minecraft.getMinecraft().getResourceManager().getResource(new ResourceLocation("aether", "texts/" + localization + ".txt"));
             BufferedReader bufferedreader = new BufferedReader(new InputStreamReader(iresource.getInputStream(), StandardCharsets.UTF_8));
             String s;
 

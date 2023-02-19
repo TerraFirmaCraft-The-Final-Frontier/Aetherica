@@ -32,13 +32,13 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(name = "Aether", modid = Aether.modid, version = Aether.version, acceptedMinecraftVersions = "1.12.2", updateJSON = "https://raw.githubusercontent.com/Modding-Legacy/Aether-Legacy/master/aether-legacy-changelog.json")
+@Mod(name = "Aether", modid = Aether.modid, version = Aether.version, acceptedMinecraftVersions = "1.12.2", updateJSON = "https://raw.githubusercontent.com/TerraFirmaCraft-The-Final-Frontier/Aetherica/master/changelog.json")
 public class Aether 
 {
 
-	public static final String modid = "aether_legacy";
+	public static final String modid = "aether";
 
-	public static final String version = "1.5.3.2";
+	public static final String version = "1.6.0.0";
 
 	@Instance(Aether.modid)
 	public static Aether instance;

@@ -881,7 +881,7 @@ public class EntitySlider extends EntityFlying implements IAetherBoss
     @Override
     public String getBossTitle()
     {
-        return this.getBossName() + ", " + new TextComponentTranslation("title.aether_legacy.slider.name", new Object[0]).getFormattedText();
+        return this.getBossName() + ", " + new TextComponentTranslation("title.aether.slider.name", new Object[0]).getFormattedText();
     }
 
     public void setAwake(boolean isAwake)

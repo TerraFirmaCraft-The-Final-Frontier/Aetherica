@@ -1,7 +1,7 @@
 package io.tff.aether.client.renders.items;
 
 import io.tff.aether.client.renders.items.definitions.CandyCaneSwordDefinition;
-import io.tff.aether.client.renders.items.definitions.NotchHammerDefinition;
+import io.tff.aether.client.renders.items.definitions.MikuHammerDefinition;
 import io.tff.aether.client.renders.items.definitions.PhoenixBowDefinition;
 import io.tff.aether.client.renders.items.util.AetherColor;
 import net.minecraft.client.Minecraft;
@@ -32,12 +32,8 @@ public class ItemRendering
 		register(ItemsAether.ambrosium_shard, "ambrosium_shard");
 		register(ItemsAether.golden_amber, "golden_amber");
 		register(ItemsAether.aechor_petal, "aechor_petal");
-		register(ItemsAether.skyroot_stick, "skyroot_stick");
 		register(ItemsAether.swetty_ball, "swetty_ball");
 
-		register(ItemsAether.skyroot_pickaxe, "skyroot_pickaxe");
-		register(ItemsAether.skyroot_axe, "skyroot_axe");
-		register(ItemsAether.skyroot_shovel, "skyroot_shovel");
 		register(ItemsAether.holystone_pickaxe, "holystone_pickaxe");
 		register(ItemsAether.holystone_axe, "holystone_axe");
 		register(ItemsAether.holystone_shovel, "holystone_shovel");
@@ -88,7 +84,6 @@ public class ItemRendering
 		register(ItemsAether.ginger_bread_man, "ginger_bread_man");
 		register(ItemsAether.enchanted_blueberry, "enchanted_blueberry");
 
-		register(ItemsAether.skyroot_sword, "skyroot_sword");
 		register(ItemsAether.holystone_sword, "holystone_sword");
 		register(ItemsAether.zanite_sword, "zanite_sword");
 		register(ItemsAether.gravitite_sword, "gravitite_sword");
@@ -158,7 +153,7 @@ public class ItemRendering
 
 		register(ItemsAether.moa_egg, "moa_egg");
 		
-		register(ItemsAether.developer_stick, "skyroot_stick");
+		register(ItemsAether.developer_stick, "golden_feather");
 
 		register(ItemsAether.skyroot_bed_item, "skyroot_bed");
 		ItemsAether.skyroot_bed_item.setTileEntityItemStackRenderer(new SkyrootBedItemStackRenderer());
@@ -166,7 +161,7 @@ public class ItemRendering
 		register(ItemsAether.aether_portal_frame, "aether_portal_frame");
 
 		registerDefinition(ItemsAether.phoenix_bow, new PhoenixBowDefinition());
-		registerDefinition(ItemsAether.notch_hammer, new NotchHammerDefinition());
+		registerDefinition(ItemsAether.miku_hammer, new MikuHammerDefinition());
 		registerDefinition(ItemsAether.candy_cane_sword, new CandyCaneSwordDefinition());
 
 		for (int meta = 0; meta < EnumGummySwetType.values().length; ++meta)
@@ -202,7 +197,7 @@ public class ItemRendering
 		registerMeta(ItemsAether.dart_shooter, Aether.locate("golden_dart_shooter"), Aether.locate("poison_dart_shooter"), Aether.locate("enchanted_dart_shooter"));
 		registerMeta(ItemsAether.dart, Aether.locate("golden_dart"), Aether.locate("poison_dart"), Aether.locate("enchanted_dart"));
 		registerMeta(ItemsAether.phoenix_bow, Aether.locate("phoenix_bow"), Aether.locate("phoenix_bow_pulling_0"), Aether.locate("phoenix_bow_pulling_1"), Aether.locate("phoenix_bow_pulling_2"));
-		registerMeta(ItemsAether.notch_hammer, Aether.locate("notch_hammer"), Aether.locate("hammer_projectile"), Aether.locate("jeb_hammer"));
+		registerMeta(ItemsAether.miku_hammer, Aether.locate("miku_hammer"), Aether.locate("hammer_projectile"), Aether.locate("jeb_hammer"));
 		registerMeta(ItemsAether.candy_cane_sword, Aether.locate("candy_cane_sword"), Aether.locate("green_candy_cane_sword"));
 
 	}

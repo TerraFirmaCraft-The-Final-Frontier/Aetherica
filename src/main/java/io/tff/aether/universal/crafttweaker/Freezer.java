@@ -11,7 +11,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
-@ZenClass("mods.aether_legacy.Freezer")
+@ZenClass("mods.aether.Freezer")
 public class Freezer {
 
     public static final IForgeRegistry<AetherFreezable> freezables = GameRegistry.findRegistry(AetherFreezable.class);

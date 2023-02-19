@@ -10,9 +10,9 @@ import io.tff.aether.client.models.entities.SunSpiritModel;
 public class FireMinionRenderer extends RenderBiped<EntityFireMinion>
 {
 
-    private static final ResourceLocation SPIRIT = new ResourceLocation("aether_legacy", "textures/bosses/sun_spirit/sun_spirit.png");
+    private static final ResourceLocation SPIRIT = new ResourceLocation("aether", "textures/bosses/sun_spirit/sun_spirit.png");
     
-    private static final ResourceLocation FROZEN_SPIRIT = new ResourceLocation("aether_legacy", "textures/bosses/sun_spirit/frozen_sun_spirit.png");
+    private static final ResourceLocation FROZEN_SPIRIT = new ResourceLocation("aether", "textures/bosses/sun_spirit/frozen_sun_spirit.png");
 
     public FireMinionRenderer(RenderManager renderManager)
     {

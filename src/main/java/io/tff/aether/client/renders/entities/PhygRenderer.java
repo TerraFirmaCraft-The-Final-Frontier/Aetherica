@@ -13,7 +13,7 @@ import net.minecraft.util.ResourceLocation;
 public class PhygRenderer extends RenderLiving<EntityPhyg>
 {
 
-	private static final ResourceLocation TEXTURE = new ResourceLocation("aether_legacy", "textures/entities/phyg/phyg.png");
+	private static final ResourceLocation TEXTURE = new ResourceLocation("aether", "textures/entities/phyg/phyg.png");
 
 	public PhygRenderer(RenderManager rendermanagerIn)
 	{
